@@ -1,11 +1,18 @@
 package com.jikexueyuan.rpc;
 
+import java.io.Serializable;
+
 /**
  * Created by version_z on 2015/8/22.
  */
-public class People
+public class People  implements  Serializable
 {
-    private Integer age;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -8111873398898246350L;
+
+	private Integer age;
 
     private Integer sex;
 
